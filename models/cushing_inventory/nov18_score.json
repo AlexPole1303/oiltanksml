@@ -1,0 +1,15 @@
+{
+  "release_date": "2026-11-18",
+  "decision_utc": "2026-11-18T05:00:00+00:00",
+  "survey_available": true,
+  "estimate_kbbl": -1306.6051340707197,
+  "reference_kbbl": -78.83352885963255,
+  "status": "retrospective_asof_reconstruction",
+  "reconstructed_on": "2026-11-25",
+  "eia_actual_kbbl": -1209,
+  "absolute_error_kbbl": 97.60513407071971,
+  "reference_error_kbbl": 1130.1664711403675,
+  "source_url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_11_18/download/table4.csv",
+  "source_sha256": "06ff8b0a29ad2aa0d91dc828613ded503e11abf587cf1d7aa4be0e089d94263c",
+  "prediction_sha256": "b031fd0b29b8a1869dae7850a9e94dd91fda8448cb65ce388d3dd81e033c44d2"
+}
