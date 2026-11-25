@@ -1,0 +1,661 @@
+{
+  "selected": {
+    "rule": "updated",
+    "hurdle_usd": 170,
+    "entry_clock": "first_if_available"
+  },
+  "inventory_release_count": 148,
+  "selection_basis": "Exploratory historical comparison. Select by realized net P&L on exits in 2024\u20132025, break ties by lower daily-mark drawdown, then declared order. Show 2026 separately through last observed exit.",
+  "selection": {
+    "previous_170_second": {
+      "windows": 99,
+      "trades": 6,
+      "long": 0,
+      "short": 6,
+      "profitable": 3,
+      "gross_usd": 1990,
+      "net_170_usd": 970,
+      "net_340_usd": -50,
+      "daily_drawdown_usd": 1400,
+      "net_without_three_largest_wins": -1230
+    },
+    "updated_170_second": {
+      "windows": 99,
+      "trades": 7,
+      "long": 0,
+      "short": 7,
+      "profitable": 4,
+      "gross_usd": 2240,
+      "net_170_usd": 1050,
+      "net_340_usd": -140,
+      "daily_drawdown_usd": 1400,
+      "net_without_three_largest_wins": -1150
+    },
+    "updated_170_third": {
+      "windows": 99,
+      "trades": 7,
+      "long": 0,
+      "short": 7,
+      "profitable": 4,
+      "gross_usd": 1050,
+      "net_170_usd": -140,
+      "net_340_usd": -1330,
+      "daily_drawdown_usd": 1895,
+      "net_without_three_largest_wins": -1770
+    },
+    "updated_170_first_if_available": {
+      "windows": 99,
+      "trades": 7,
+      "long": 0,
+      "short": 7,
+      "profitable": 5,
+      "gross_usd": 3630,
+      "net_170_usd": 2440,
+      "net_340_usd": 1250,
+      "daily_drawdown_usd": 1870,
+      "net_without_three_largest_wins": -660
+    },
+    "updated_170_predicted_first_interval": {
+      "windows": 99,
+      "trades": 7,
+      "long": 0,
+      "short": 7,
+      "profitable": 5,
+      "gross_usd": 3610,
+      "net_170_usd": 2420,
+      "net_340_usd": 1230,
+      "daily_drawdown_usd": 1870,
+      "net_without_three_largest_wins": -680
+    },
+    "updated_340_second": {
+      "windows": 99,
+      "trades": 4,
+      "long": 0,
+      "short": 4,
+      "profitable": 2,
+      "gross_usd": 1430,
+      "net_170_usd": 750,
+      "net_340_usd": 70,
+      "daily_drawdown_usd": 1180,
+      "net_without_three_largest_wins": -1010
+    },
+    "updated_340_first_if_available": {
+      "windows": 99,
+      "trades": 4,
+      "long": 0,
+      "short": 4,
+      "profitable": 3,
+      "gross_usd": 3000,
+      "net_170_usd": 2320,
+      "net_340_usd": 1640,
+      "daily_drawdown_usd": 1470,
+      "net_without_three_largest_wins": -590
+    },
+    "updated_340_predicted_first_interval": {
+      "windows": 99,
+      "trades": 4,
+      "long": 0,
+      "short": 4,
+      "profitable": 3,
+      "gross_usd": 3000,
+      "net_170_usd": 2320,
+      "net_340_usd": 1640,
+      "daily_drawdown_usd": 1470,
+      "net_without_three_largest_wins": -590
+    },
+    "equal_weight_170_second": {
+      "windows": 99,
+      "trades": 7,
+      "long": 0,
+      "short": 7,
+      "profitable": 4,
+      "gross_usd": 2240,
+      "net_170_usd": 1050,
+      "net_340_usd": -140,
+      "daily_drawdown_usd": 1400,
+      "net_without_three_largest_wins": -1150
+    },
+    "equal_weight_170_third": {
+      "windows": 99,
+      "trades": 7,
+      "long": 0,
+      "short": 7,
+      "profitable": 4,
+      "gross_usd": 1050,
+      "net_170_usd": -140,
+      "net_340_usd": -1330,
+      "daily_drawdown_usd": 1895,
+      "net_without_three_largest_wins": -1770
+    },
+    "equal_weight_170_first_if_available": {
+      "windows": 99,
+      "trades": 7,
+      "long": 0,
+      "short": 7,
+      "profitable": 5,
+      "gross_usd": 3630,
+      "net_170_usd": 2440,
+      "net_340_usd": 1250,
+      "daily_drawdown_usd": 1870,
+      "net_without_three_largest_wins": -660
+    },
+    "equal_weight_170_predicted_first_interval": {
+      "windows": 99,
+      "trades": 7,
+      "long": 0,
+      "short": 7,
+      "profitable": 5,
+      "gross_usd": 3610,
+      "net_170_usd": 2420,
+      "net_340_usd": 1230,
+      "daily_drawdown_usd": 1870,
+      "net_without_three_largest_wins": -680
+    },
+    "equal_weight_340_second": {
+      "windows": 99,
+      "trades": 4,
+      "long": 0,
+      "short": 4,
+      "profitable": 2,
+      "gross_usd": 1430,
+      "net_170_usd": 750,
+      "net_340_usd": 70,
+      "daily_drawdown_usd": 1180,
+      "net_without_three_largest_wins": -1010
+    },
+    "equal_weight_340_first_if_available": {
+      "windows": 99,
+      "trades": 4,
+      "long": 0,
+      "short": 4,
+      "profitable": 3,
+      "gross_usd": 3000,
+      "net_170_usd": 2320,
+      "net_340_usd": 1640,
+      "daily_drawdown_usd": 1470,
+      "net_without_three_largest_wins": -590
+    },
+    "equal_weight_340_predicted_first_interval": {
+      "windows": 99,
+      "trades": 4,
+      "long": 0,
+      "short": 4,
+      "profitable": 3,
+      "gross_usd": 3000,
+      "net_170_usd": 2320,
+      "net_340_usd": 1640,
+      "daily_drawdown_usd": 1470,
+      "net_without_three_largest_wins": -590
+    },
+    "agreement_170_second": {
+      "windows": 99,
+      "trades": 6,
+      "long": 0,
+      "short": 6,
+      "profitable": 3,
+      "gross_usd": 1990,
+      "net_170_usd": 970,
+      "net_340_usd": -50,
+      "daily_drawdown_usd": 1400,
+      "net_without_three_largest_wins": -1230
+    },
+    "agreement_170_first_if_available": {
+      "windows": 99,
+      "trades": 6,
+      "long": 0,
+      "short": 6,
+      "profitable": 4,
+      "gross_usd": 3360,
+      "net_170_usd": 2340,
+      "net_340_usd": 1320,
+      "daily_drawdown_usd": 1870,
+      "net_without_three_largest_wins": -760
+    },
+    "agreement_170_predicted_first_interval": {
+      "windows": 99,
+      "trades": 6,
+      "long": 0,
+      "short": 6,
+      "profitable": 4,
+      "gross_usd": 3360,
+      "net_170_usd": 2340,
+      "net_340_usd": 1320,
+      "daily_drawdown_usd": 1870,
+      "net_without_three_largest_wins": -760
+    },
+    "agreement_340_second": {
+      "windows": 99,
+      "trades": 3,
+      "long": 0,
+      "short": 3,
+      "profitable": 1,
+      "gross_usd": -130,
+      "net_170_usd": -640,
+      "net_340_usd": -1150,
+      "daily_drawdown_usd": 1180,
+      "net_without_three_largest_wins": -1010
+    },
+    "agreement_340_first_if_available": {
+      "windows": 99,
+      "trades": 3,
+      "long": 0,
+      "short": 3,
+      "profitable": 2,
+      "gross_usd": 1170,
+      "net_170_usd": 660,
+      "net_340_usd": 150,
+      "daily_drawdown_usd": 1470,
+      "net_without_three_largest_wins": -590
+    },
+    "agreement_340_predicted_first_interval": {
+      "windows": 99,
+      "trades": 3,
+      "long": 0,
+      "short": 3,
+      "profitable": 2,
+      "gross_usd": 1170,
+      "net_170_usd": 660,
+      "net_340_usd": 150,
+      "daily_drawdown_usd": 1470,
+      "net_without_three_largest_wins": -590
+    },
+    "adaptive_170_past_52_weeks": {
+      "windows": 99,
+      "trades": 7,
+      "long": 0,
+      "short": 7,
+      "profitable": 4,
+      "gross_usd": 2260,
+      "net_170_usd": 1070,
+      "net_340_usd": -120,
+      "daily_drawdown_usd": 1400,
+      "net_without_three_largest_wins": -1130
+    }
+  },
+  "results": {
+    "previous": {
+      "all": {
+        "windows": 144,
+        "trades": 37,
+        "long": 7,
+        "short": 30,
+        "profitable": 27,
+        "gross_usd": 62050,
+        "net_170_usd": 55760,
+        "net_340_usd": 49470,
+        "daily_drawdown_usd": 7075,
+        "net_without_three_largest_wins": 28410
+      },
+      "following_period": {
+        "windows": 44,
+        "trades": 31,
+        "long": 7,
+        "short": 24,
+        "profitable": 24,
+        "gross_usd": 60060,
+        "net_170_usd": 54790,
+        "net_340_usd": 49520,
+        "daily_drawdown_usd": 7075,
+        "net_without_three_largest_wins": 27440
+      },
+      "by_exit_year": {
+        "2024": {
+          "windows": 49,
+          "trades": 0,
+          "long": 0,
+          "short": 0,
+          "profitable": 0,
+          "gross_usd": 0,
+          "net_170_usd": 0,
+          "net_340_usd": 0,
+          "daily_drawdown_usd": 0,
+          "net_without_three_largest_wins": 0
+        },
+        "2025": {
+          "windows": 50,
+          "trades": 6,
+          "long": 0,
+          "short": 6,
+          "profitable": 3,
+          "gross_usd": 1990,
+          "net_170_usd": 970,
+          "net_340_usd": -50,
+          "daily_drawdown_usd": 1400,
+          "net_without_three_largest_wins": -1230
+        },
+        "2026": {
+          "windows": 45,
+          "trades": 31,
+          "long": 7,
+          "short": 24,
+          "profitable": 24,
+          "gross_usd": 60060,
+          "net_170_usd": 54790,
+          "net_340_usd": 49520,
+          "daily_drawdown_usd": 7075,
+          "net_without_three_largest_wins": 27440
+        }
+      }
+    },
+    "selected": {
+      "all": {
+        "windows": 144,
+        "trades": 38,
+        "long": 6,
+        "short": 32,
+        "profitable": 26,
+        "gross_usd": 40970,
+        "net_170_usd": 34510,
+        "net_340_usd": 28050,
+        "daily_drawdown_usd": 11495,
+        "net_without_three_largest_wins": 6400
+      },
+      "following_period": {
+        "windows": 44,
+        "trades": 31,
+        "long": 6,
+        "short": 25,
+        "profitable": 21,
+        "gross_usd": 37340,
+        "net_170_usd": 32070,
+        "net_340_usd": 26800,
+        "daily_drawdown_usd": 11495,
+        "net_without_three_largest_wins": 3960
+      },
+      "by_exit_year": {
+        "2024": {
+          "windows": 49,
+          "trades": 0,
+          "long": 0,
+          "short": 0,
+          "profitable": 0,
+          "gross_usd": 0,
+          "net_170_usd": 0,
+          "net_340_usd": 0,
+          "daily_drawdown_usd": 0,
+          "net_without_three_largest_wins": 0
+        },
+        "2025": {
+          "windows": 50,
+          "trades": 7,
+          "long": 0,
+          "short": 7,
+          "profitable": 5,
+          "gross_usd": 3630,
+          "net_170_usd": 2440,
+          "net_340_usd": 1250,
+          "daily_drawdown_usd": 1870,
+          "net_without_three_largest_wins": -660
+        },
+        "2026": {
+          "windows": 45,
+          "trades": 31,
+          "long": 6,
+          "short": 25,
+          "profitable": 21,
+          "gross_usd": 37340,
+          "net_170_usd": 32070,
+          "net_340_usd": 26800,
+          "daily_drawdown_usd": 11495,
+          "net_without_three_largest_wins": 3960
+        }
+      }
+    },
+    "updated_unfiltered": {
+      "all": {
+        "windows": 144,
+        "trades": 38,
+        "long": 6,
+        "short": 32,
+        "profitable": 26,
+        "gross_usd": 57210,
+        "net_170_usd": 50750,
+        "net_340_usd": 44290,
+        "daily_drawdown_usd": 7075,
+        "net_without_three_largest_wins": 23400
+      },
+      "following_period": {
+        "windows": 44,
+        "trades": 31,
+        "long": 6,
+        "short": 25,
+        "profitable": 22,
+        "gross_usd": 54970,
+        "net_170_usd": 49700,
+        "net_340_usd": 44430,
+        "daily_drawdown_usd": 7075,
+        "net_without_three_largest_wins": 22350
+      },
+      "by_exit_year": {
+        "2024": {
+          "windows": 49,
+          "trades": 0,
+          "long": 0,
+          "short": 0,
+          "profitable": 0,
+          "gross_usd": 0,
+          "net_170_usd": 0,
+          "net_340_usd": 0,
+          "daily_drawdown_usd": 0,
+          "net_without_three_largest_wins": 0
+        },
+        "2025": {
+          "windows": 50,
+          "trades": 7,
+          "long": 0,
+          "short": 7,
+          "profitable": 4,
+          "gross_usd": 2240,
+          "net_170_usd": 1050,
+          "net_340_usd": -140,
+          "daily_drawdown_usd": 1400,
+          "net_without_three_largest_wins": -1150
+        },
+        "2026": {
+          "windows": 45,
+          "trades": 31,
+          "long": 6,
+          "short": 25,
+          "profitable": 22,
+          "gross_usd": 54970,
+          "net_170_usd": 49700,
+          "net_340_usd": 44430,
+          "daily_drawdown_usd": 7075,
+          "net_without_three_largest_wins": 22350
+        }
+      }
+    },
+    "learned_timing": {
+      "all": {
+        "windows": 144,
+        "trades": 38,
+        "long": 6,
+        "short": 32,
+        "profitable": 26,
+        "gross_usd": 44830,
+        "net_170_usd": 38370,
+        "net_340_usd": 31910,
+        "daily_drawdown_usd": 7535,
+        "net_without_three_largest_wins": 10630
+      },
+      "following_period": {
+        "windows": 44,
+        "trades": 31,
+        "long": 6,
+        "short": 25,
+        "profitable": 21,
+        "gross_usd": 41220,
+        "net_170_usd": 35950,
+        "net_340_usd": 30680,
+        "daily_drawdown_usd": 7535,
+        "net_without_three_largest_wins": 8210
+      },
+      "by_exit_year": {
+        "2024": {
+          "windows": 49,
+          "trades": 0,
+          "long": 0,
+          "short": 0,
+          "profitable": 0,
+          "gross_usd": 0,
+          "net_170_usd": 0,
+          "net_340_usd": 0,
+          "daily_drawdown_usd": 0,
+          "net_without_three_largest_wins": 0
+        },
+        "2025": {
+          "windows": 50,
+          "trades": 7,
+          "long": 0,
+          "short": 7,
+          "profitable": 5,
+          "gross_usd": 3610,
+          "net_170_usd": 2420,
+          "net_340_usd": 1230,
+          "daily_drawdown_usd": 1870,
+          "net_without_three_largest_wins": -680
+        },
+        "2026": {
+          "windows": 45,
+          "trades": 31,
+          "long": 6,
+          "short": 25,
+          "profitable": 21,
+          "gross_usd": 41220,
+          "net_170_usd": 35950,
+          "net_340_usd": 30680,
+          "daily_drawdown_usd": 7535,
+          "net_without_three_largest_wins": 8210
+        }
+      }
+    },
+    "adaptive": {
+      "all": {
+        "windows": 144,
+        "trades": 39,
+        "long": 7,
+        "short": 32,
+        "profitable": 28,
+        "gross_usd": 61060,
+        "net_170_usd": 54430,
+        "net_340_usd": 47800,
+        "daily_drawdown_usd": 7075,
+        "net_without_three_largest_wins": 27080
+      },
+      "following_period": {
+        "windows": 44,
+        "trades": 32,
+        "long": 7,
+        "short": 25,
+        "profitable": 24,
+        "gross_usd": 58800,
+        "net_170_usd": 53360,
+        "net_340_usd": 47920,
+        "daily_drawdown_usd": 7075,
+        "net_without_three_largest_wins": 26010
+      },
+      "by_exit_year": {
+        "2024": {
+          "windows": 49,
+          "trades": 0,
+          "long": 0,
+          "short": 0,
+          "profitable": 0,
+          "gross_usd": 0,
+          "net_170_usd": 0,
+          "net_340_usd": 0,
+          "daily_drawdown_usd": 0,
+          "net_without_three_largest_wins": 0
+        },
+        "2025": {
+          "windows": 50,
+          "trades": 7,
+          "long": 0,
+          "short": 7,
+          "profitable": 4,
+          "gross_usd": 2260,
+          "net_170_usd": 1070,
+          "net_340_usd": -120,
+          "daily_drawdown_usd": 1400,
+          "net_without_three_largest_wins": -1130
+        },
+        "2026": {
+          "windows": 45,
+          "trades": 32,
+          "long": 7,
+          "short": 25,
+          "profitable": 24,
+          "gross_usd": 58800,
+          "net_170_usd": 53360,
+          "net_340_usd": 47920,
+          "daily_drawdown_usd": 7075,
+          "net_without_three_largest_wins": 26010
+        }
+      }
+    },
+    "equal_second": {
+      "all": {
+        "windows": 144,
+        "trades": 39,
+        "long": 6,
+        "short": 33,
+        "profitable": 27,
+        "gross_usd": 59830,
+        "net_170_usd": 53200,
+        "net_340_usd": 46570,
+        "daily_drawdown_usd": 7075,
+        "net_without_three_largest_wins": 25850
+      },
+      "following_period": {
+        "windows": 44,
+        "trades": 32,
+        "long": 6,
+        "short": 26,
+        "profitable": 23,
+        "gross_usd": 57590,
+        "net_170_usd": 52150,
+        "net_340_usd": 46710,
+        "daily_drawdown_usd": 7075,
+        "net_without_three_largest_wins": 24800
+      },
+      "by_exit_year": {
+        "2024": {
+          "windows": 49,
+          "trades": 0,
+          "long": 0,
+          "short": 0,
+          "profitable": 0,
+          "gross_usd": 0,
+          "net_170_usd": 0,
+          "net_340_usd": 0,
+          "daily_drawdown_usd": 0,
+          "net_without_three_largest_wins": 0
+        },
+        "2025": {
+          "windows": 50,
+          "trades": 7,
+          "long": 0,
+          "short": 7,
+          "profitable": 4,
+          "gross_usd": 2240,
+          "net_170_usd": 1050,
+          "net_340_usd": -140,
+          "daily_drawdown_usd": 1400,
+          "net_without_three_largest_wins": -1150
+        },
+        "2026": {
+          "windows": 45,
+          "trades": 32,
+          "long": 6,
+          "short": 26,
+          "profitable": 23,
+          "gross_usd": 57590,
+          "net_170_usd": 52150,
+          "net_340_usd": 46710,
+          "daily_drawdown_usd": 7075,
+          "net_without_three_largest_wins": 24800
+        }
+      }
+    }
+  }
+}
