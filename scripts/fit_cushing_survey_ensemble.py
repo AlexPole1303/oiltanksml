@@ -135,6 +135,19 @@ def apply(rows, mix):
     return out
 
 
+def replay_experts(source, period, ledger, blend):
+    r = replay(source, period, tuple(blend["hidden_layers"]))
+    r["survey"] = ledger.loc[r.index, "survey"]
+    r["survey_time"] = ledger.loc[r.index, "survey_time"]
+    r["survey_bias"] = [survey_bias(ledger, t) for t in r.cutoff]
+    r["survey_network"] = np.nan
+    for _, group in r.groupby(r.release_date.str[:4]):
+        gate, _ = fit_gate(ledger, group.cutoff.min())
+        available = group[group.survey.notna()]
+        r.loc[available.index, "survey_network"] = gate_forecast(gate, available)
+    return experts(r, blend)
+
+
 def train():
     data = enrich(load_panel())
     ledger = add_survey(data, survey_records())
@@ -145,21 +158,10 @@ def train():
     test = data[data.phase == "holdout"]
     if pre.known.max() >= test.cutoff.min():
         raise ValueError("Selection labels overlap evaluation")
-    def replay_experts(source, period):
-        r = replay(source, period, tuple(blend["hidden_layers"]))
-        r["survey"] = ledger.loc[r.index, "survey"]
-        r["survey_time"] = ledger.loc[r.index, "survey_time"]
-        r["survey_bias"] = [survey_bias(ledger, t) for t in r.cutoff]
-        r["survey_network"] = np.nan
-        for _, group in r.groupby(r.release_date.str[:4]):
-            gate, _ = fit_gate(ledger, group.cutoff.min())
-            available = group[group.survey.notna()]
-            r.loc[available.index, "survey_network"] = gate_forecast(gate, available)
-        return experts(r, blend)
-    val = replay_experts(pre, validation)
+    val = replay_experts(pre, validation, ledger, blend)
     mix, history, minimum = minimize_validation(val)
     print(f"Validation optimum {minimum:.3f} kbbl on {len(val)} dates; weights frozen.", flush=True)
-    rows = replay_experts(data, test)
+    rows = replay_experts(data, test, ledger, blend)
     rows["final_forecast"] = apply(rows, mix)
     rows["survey_or_reference"] = rows.survey.fillna(rows.strong_reference)
     methods = ["previous_mlp", "strong_reference", "neural", "survey_or_reference", "final_forecast"]
