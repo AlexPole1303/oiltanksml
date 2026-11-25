@@ -24,7 +24,7 @@ POPULATION = 96
 
 
 def survey_records(path=SURVEY):
-    source = pd.read_csv(path)
+    source = pd.read_csv(path, dtype={"api_change_kbbl": float})
     if source.release_date.duplicated().any() or not np.isfinite(source.api_change_kbbl).all():
         raise ValueError("Invalid survey ledger")
     for col in ("published_utc", "available_utc"):

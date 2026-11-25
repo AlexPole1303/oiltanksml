@@ -83,13 +83,13 @@ def fit_epochs(x, y, sample_weights, seed, epochs, stopping=None):
     return params, logs
 
 
-def fit_head(history, cutoff, present):
+def fit_head(history, cutoff, present, common=COMMON):
     rows = history[(history.known < cutoff) & history.strong_reference.notna()].sort_values("cutoff")
     if present:
         rows = rows[rows.survey.notna()]
     if len(rows) < 40:
         raise ValueError("Insufficient prior observations to fit a survey correction")
-    fields = list(COMMON) + (["survey"] if present else [])
+    fields = list(common) + (["survey"] if present else [])
     anchor = rows.survey if present else rows.strong_reference
     y = (rows.target - anchor).to_numpy()[:, None]
     if not present:

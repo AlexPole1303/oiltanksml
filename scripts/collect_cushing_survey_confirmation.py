@@ -23,15 +23,18 @@ ENDPOINT = "https://centerapi.fx168api.com/cms/api/economic/calendar/getCalendar
 SHANGHAI = ZoneInfo("Asia/Shanghai")
 
 
-def calendar_rows(through):
+def calendar_rows(through, calendar_id=215654, cached_only=False):
+    directory = ARCHIVE if calendar_id == 215654 else ARCHIVE / str(calendar_id)
     rows = []
     page = 1
     while True:
-        cache = ARCHIVE / f"{through}-{page}.json"
+        cache = directory / f"{through}-{page}.json"
         if not cache.exists():
+            if cached_only:
+                raise FileNotFoundError(cache)
             query = urlencode(
                 {
-                    "calendarId": 215654,
+                    "calendarId": calendar_id,
                     "siteCode": "001",
                     "pageNo": page,
                     "pageSize": 20,
@@ -49,7 +52,7 @@ def calendar_rows(through):
         if page >= result["totalPage"]:
             return rows
         page += 1
-        if not (ARCHIVE / f"{through}-{page}.json").exists():
+        if not (directory / f"{through}-{page}.json").exists():
             time.sleep(10)
 
 
