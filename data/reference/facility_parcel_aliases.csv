@@ -1,0 +1,9 @@
+facility_key,owner_name_recorded,identity_source_url,notes
+enbridge_cushing,"Enbridge Storage (Cushing), LLC",https://applications.deq.ok.gov/permitspublic/storedpermits/8499.pdf,Permit operator name and parcel owner label agree within the named cadastral sections.
+enbridge_cushing,ENBRIDGE STORAGE (CUSHING) LLC,https://applications.deq.ok.gov/permitspublic/storedpermits/8499.pdf,Lincoln County spelling of the legal entity.
+enbridge_grandstaff,"BKEP Crude Storage, LLC",https://www.sec.gov/Archives/edgar/data/1392091/000143774921004589/bkep20210207_8k.htm,Legacy crude storage name remains in the parcel layer. Enbridge is the documented buyer in 2021 and operator in DEQ memorandum 8122.
+magellan_cushing_south,MAGELLAN CRUDE OIL LLC,https://applications.deq.ok.gov/permitspublic/storedpermits/8118.pdf,Facility corroboration within the named cadastral section.
+magellan_cushing_central,"Magellan Pipeline Company, LP",https://applications.deq.ok.gov/permitspublic/storedpermits/8699.pdf,Parcel match can cover more mapped contours than the number of equipment units listed in this permit.
+plains_cushing,PLAINS MARKETING LP,https://applications.deq.ok.gov/permitspublic/storedpermits/8795.pdf,Facility corroboration at combined-site level. The former CVR block needs a separate tank-by-tank crosswalk.
+southbow_cushing,TRANSCANADA OIL PIPELINES INC,https://www.sec.gov/Archives/edgar/data/2019061/000162828025010681/soboaif-12312024.htm,Legacy TransCanada land label. Ownership intervals use the Marketlink corporate disclosures and permit 6816.
+rose_rock_cushing_north,"Semcrude, LP",https://applications.deq.ok.gov/permitspublic/storedpermits/6844.pdf,Section 22 parcels retain the Semcrude name. The DEQ memorandum documents the split of the shared permit and the Rose Rock site roster.

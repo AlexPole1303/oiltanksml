@@ -1,0 +1,4 @@
+week_ending,earliest_archive_date,value_at_earliest_archive_kbbl,earliest_value_precision_kbbl,exact_archive_date,exact_value_kbbl,source_url,notes
+2019-06-28,2019-07-03,52500,100,2019-07-10,52488,https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_07_03/pdf/table4.pdf,The July 3 CSV duplicates the June 26 release. The July 3 PDF shows 52.5 million barrels and the July 10 CSV shows the exact prior-week value.
+2022-06-17,2022-06-29,22043,1,2022-06-29,22043,https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_06_29/csv/table4.csv,Verified as previous week in the dated CSV. This records the earliest archival copy found.
+2023-11-03,2023-11-15,23085,1,2023-11-15,23085,https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_11_15/csv/table4.csv,Verified as previous week in the November 15 release after the scheduled system upgrade.

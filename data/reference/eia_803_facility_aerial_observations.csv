@@ -1,0 +1,51 @@
+review_number,registry_id,observation,visible_large_round_structures,notes
+1,110004766566,no_large_tank_visible,,No large round tank in the review window.
+2,110007031960,possible_former_pad,,Circular ground traces at the industrial clearing.
+3,110007032905,tank_group_visible,3,Three bright round tanks north and east of the registry point. The point itself is near a ground trace.
+4,110007164433,no_large_tank_visible,,Gas pipeline station record. No large round tank in the window.
+5,110007164629,tank_visible,1,One visible tank in the northern compound. Equipment identity and product remain unresolved.
+6,110007166556,no_large_tank_visible,,Industrial compound by the registry point. No large round tank in the window.
+7,110007166654,no_large_tank_visible,,No large round tank in the window.
+8,110007387050,tank_group_visible,8,Six round tanks in the northern enclosure and two additional partly clipped tanks south of it. Product and site boundary require corroboration.
+9,110007388442,no_large_tank_visible,,No large round tank in the window.
+10,110007388521,no_large_tank_visible,,No large round tank in the window.
+11,110007726363,no_large_tank_visible,,No large round tank in the window.
+12,110007727255,no_large_tank_visible,,Same registry position as 110007727326. No large round tank in the window.
+13,110007727326,no_large_tank_visible,,Same registry position as 110007727255. No large round tank in the window.
+14,110013327220,no_large_tank_visible,,Pipeline equipment site record. No large round tank in the window.
+15,110038909303,no_large_tank_visible,,Same registry position as 110043859759. Facility name warrants an independent location check.
+16,110043859759,no_large_tank_visible,,Same registry position as 110038909303. No large round tank in the window.
+17,110045560512,no_large_tank_visible,,Pipeline equipment site record. No large round tank in the window.
+18,110058897234,no_large_tank_visible,,No large round tank in the window.
+19,110007725916,no_large_tank_visible,,Registry point in the street grid west of the rail terminal.
+20,110009433997,no_large_tank_visible,,No large round tank in the window.
+21,110013329905,no_large_tank_visible,,Gas booster station record. No large round tank in the window.
+22,110018863309,no_large_tank_visible,,No large round tank in the window.
+23,110039620791,no_large_tank_visible,,Registry point near the street grid and railway. No large round tank in the window.
+24,110040505735,tank_group_visible,2,Same pair as 110070122509. State memorandum 9030 lists two IFR crude oil tanks at this terminal.
+25,110043326656,no_large_tank_visible,,No large round tank in the window.
+26,110044358824,no_large_tank_visible,,Gas compressor station record. No large round tank in the window.
+27,110056285522,no_large_tank_visible,,No large round tank in the window.
+28,110064648555,no_large_tank_visible,,No large round tank in the window.
+29,110070122509,tank_group_visible,2,Same pair as 110040505735. State memorandum 9030 lists two IFR crude oil tanks at this terminal.
+30,110070544006,no_large_tank_visible,,No large round tank in the window.
+31,110007385935,no_large_tank_visible,,Point is by a city park. A white water tower is visible within the park.
+32,110007388629,tank_or_shell_group_visible,5,Five round elevated structures and several ground traces. Three northern structures have exposed rust-colored inner surfaces. Operational status is unresolved.
+33,110007388683,no_large_tank_visible,,No large round tank in the window.
+34,110007726416,no_large_tank_visible,,No large round tank in the window.
+35,110007727433,no_large_tank_visible,,No large round tank in the window.
+36,110007735139,no_large_tank_visible,,Registry point within the street grid. No large tank identifiable at the reference location.
+37,110007736272,no_large_tank_visible,,No large round tank in the window.
+38,110012276198,no_large_tank_visible,,Same registry position as 110012276205. No large round tank in the window.
+39,110012276205,no_large_tank_visible,,Same registry position as 110012276198. No large round tank in the window.
+40,110022404423,tank_group_visible,5,Five round tanks at Little Farm and two possible older pads. Crude service corroborated at the site level by Sunoco OCC 35.
+41,110045943770,no_large_tank_visible,,Gas compressor station record. No large round tank in the window.
+42,110058900907,no_large_tank_visible,,Industrial or pipeline clearing. No large round tank in the window.
+43,110058903575,no_large_tank_visible,,Industrial compound and truck station. No large round tank in the window.
+44,110070083460,no_large_tank_visible,,Registry point near a road. The mapped BPV terminal in the core has a separate source position.
+45,110070707223,no_large_tank_visible,,Small equipment at the tank battery reference. No large round tank in the window.
+46,110070825892,no_large_tank_visible,,Registry point in wooded ground. The mapped Wildhorse terminal in the core has a separate source position.
+47,110071139726,no_large_tank_visible,,No large round tank in the window.
+48,110071307856,no_large_tank_visible,,Registry point by a road and ponds. The mapped Energy Transfer north tank farm has a separate source position.
+49,110071319745,no_large_tank_visible,,No large round tank in the window.
+50,110071381018,possible_former_pads,,Two circular ground traces east of the road. No large standing tank identified in the window.

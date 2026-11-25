@@ -1,0 +1,4 @@
+requested_instrument,session_date,requested_security_close,other_security,other_security_close,source_url
+OKE,2023-05-12,63.72,MMP,55.41,https://www.sec.gov/Archives/edgar/data/1126975/000121390023059403/defm14a0723_magellanmid.htm
+OKE,2023-07-24,67.25,MMP,65.51,https://www.sec.gov/Archives/edgar/data/1126975/000121390023059403/defm14a0723_magellanmid.htm
+OKE,2023-09-25,66.54,,,https://ir.oneok.com/recent-acquisitions/mmp-acquisition-faq

@@ -1,0 +1,7 @@
+event_id,archive_url,archive_marker
+semg_announcement,https://www.sec.gov/Archives/edgar/data/1489136/000119312519245401/d798204d425.htm,0.7275
+semg_close,https://www.sec.gov/Archives/edgar/data/1276187/000119312519307337/d841702dex991.htm,successful completion
+tep_announcement,https://www.sec.gov/Archives/edgar/data/1569134/000119312518096348/0001193125-18-096348.txt,2.0 TEGP Class A shares
+tep_close,https://www.sec.gov/Archives/edgar/data/1569134/000119312518210364/0001193125-18-210364.txt,2.0 Class A shares
+etp_ete_announcement,https://www.sec.gov/Archives/edgar/data/1276187/000119312518235988/0001193125-18-235988.txt,1.28 common units of ETE
+etp_ete_close,https://www.sec.gov/Archives/edgar/data/1276187/000119312518303169/0001193125-18-303169.txt,1.28 ETE common units

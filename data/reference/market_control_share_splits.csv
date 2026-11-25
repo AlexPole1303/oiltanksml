@@ -1,0 +1,5 @@
+instrument,first_split_adjusted_session,new_shares,old_shares,prior_cusip,current_cusip,source_file,source_url
+AMLP,2020-05-18,1,5,00162Q866,00162Q452,data/raw/issuer_distributions/AMLP_8937_20200518.pdf,https://www.alpsfunds.com/hubfs/alps-docs/tax/8937/alerian-mlp-etf-amlp-8937-20200518.pdf
+USO,2020-04-29,1,8,91232N108,91232N207,data/raw/issuer_distributions/USO_2025_10K.pdf,https://www.sec.gov/Archives/edgar/data/1327068/000110465926021501/uso-20251231x10k.htm
+XLE,2025-12-05,2,1,81369Y506,81369Y506,data/raw/issuer_distributions/XLE_2025_split_8937.pdf,https://www.ssga.com/library-content/products/fund-docs/etfs/us/tax-documents/us-tax-form-state-street-energy-select-sector-spdr-etf-2025.pdf
+XOP,2020-03-30,1,4,78464A730,78468R556,data/raw/issuer_distributions/XOP_2020_split_8937.pdf,https://www.ssga.com/library-content/products/fund-docs/etfs/us/tax-documents/J942-SPDR-SP-Oil-Gas-Exploration-and-Production-ETF-2020-Form-8937.pdf

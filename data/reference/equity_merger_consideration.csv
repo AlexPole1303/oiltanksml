@@ -1,0 +1,15 @@
+retiring_instrument,acquirer_instrument,last_trading_session,closing_date,cash_per_retiring_unit,acquirer_shares_per_retiring_unit,currency,source_url
+MMP,OKE,2023-09-22,2023-09-25,25.00,0.667,USD,https://ir.oneok.com/recent-acquisitions/mmp-acquisition-faq
+JPEP,AMID,2017-03-07,2017-03-08,0,0.5775,USD,https://www.sec.gov/Archives/edgar/data/1523404/000119312517074861/d328538d8k.htm
+AMID,,2019-07-22,2019-07-23,5.25,0,USD,https://www.sec.gov/Archives/edgar/data/1513965/000119312519199794/d779457dsc13e3a.htm
+TLP,,2019-02-26,2019-02-26,41.00,0,USD,https://www.sec.gov/Archives/edgar/data/1319229/000110465919010579/a19-5348_1ex99d1.htm
+CVRR,CVI,2019-01-28,2019-01-29,10.50,0,USD,https://www.sec.gov/Archives/edgar/data/1558785/000110465919004053/a19-3579_18k.htm
+SEMG,ET,2019-12-04,2019-12-05,6.80,0.7275,USD,https://www.sec.gov/Archives/edgar/data/1489136/000119312519307334/d816435d8k.htm
+BKEP,,2022-08-17,2022-08-17,4.65,0,USD,https://www.nasdaqtrader.com/TraderNews.aspx?id=eca2022-203
+PSXP,PSX,2022-03-08,2022-03-09,0,0.50,USD,https://investor.phillips66.com/financial-information/news-releases/news-release-details/2022/Phillips-66-Announces-Completion-of-Phillips-66-Partners-Acquisition/default.aspx
+HFC,DINO,2022-03-14,2022-03-14,0,1,USD,https://www.sec.gov/Archives/edgar/data/48039/000119312522077293/d260898d8k.htm
+TGE,,2020-04-16,2020-04-17,22.45,0,USD,https://www.sec.gov/Archives/edgar/data/1633651/000087666120000343/ruleprovisionnotice.htm
+HEP,DINO,2023-11-30,2023-12-01,4.00,0.315,USD,https://investor.hfsinclair.com/investor-relations/press-releases/press-releases-details/2023/HF-Sinclair-Corporation-Completes-Acquisition-of-Holly-Energy-Partners-L.P/default.aspx
+ETP,ETP,2017-04-27,2017-04-28,0,1.5,USD,https://www.sec.gov/Archives/edgar/data/1161154/000119312517148980/d375650dex991.htm
+TEP,TGE,2018-06-29,2018-06-30,0,2.0,USD,https://www.sec.gov/Archives/edgar/data/1569134/000119312518210364/d651822d8k.htm
+ETP,ET,2018-10-18,2018-10-19,0,1.28,USD,https://www.sec.gov/Archives/edgar/data/1276187/000119312518303169/d639079d8k.htm

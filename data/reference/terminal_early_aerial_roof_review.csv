@@ -1,0 +1,35 @@
+scope_id,candidate_id,observed_date,top_observation,detail
+enterprise_west_owned,osm-way-460925322,2021-05-06,inset_wall_shadow_visible,Dark crescent inside the complete bright rim and ground shadow on the opposite side.
+enterprise_west_owned,osm-way-460925374,2021-05-06,top_without_distinct_inset_shadow,Continuous visible top and dark shadow outside the roof outline.
+enterprise_west_owned,osm-way-460925456,2021-05-06,inset_wall_shadow_visible,Interior shadow ends at the bright rim and radial access bridge crosses it.
+enterprise_west_owned,osm-way-460925475,2021-05-06,top_without_distinct_inset_shadow,Continuous visible top and dark shadow outside the roof outline.
+enterprise_west_owned,osm-way-460925524,2021-05-06,top_without_distinct_inset_shadow,Continuous textured top and dark shadow outside the roof outline.
+enterprise_west_owned,osm-way-460925532,2021-05-06,top_without_distinct_inset_shadow,Continuous visible top and dark shadow outside the roof outline.
+enterprise_west_owned,osm-way-460925537,2021-05-06,top_without_distinct_inset_shadow,Continuous visible top and dark shadow outside the roof outline.
+enterprise_west_owned,osm-way-460925540,2021-05-06,top_without_distinct_inset_shadow,Continuous mottled top and dark shadow outside the roof outline.
+enterprise_west_owned,osm-way-460925591,2021-05-06,inset_wall_shadow_visible,Dark crescent inside the rim and external ground shadow on the opposite side.
+enterprise_west_owned,osm-way-460925594,2021-05-06,top_without_distinct_inset_shadow,Continuous visible top and dark shadow outside the roof outline.
+sunoco_little_farm,ortho-little-farm-01,2017-05-07,no_resolved_inset_shadow,Continuous visible top and dark shadow outside the roof outline.
+sunoco_little_farm,ortho-little-farm-02,2017-05-07,no_resolved_inset_shadow,Continuous visible top and dark shadow outside the roof outline.
+sunoco_little_farm,ortho-little-farm-03,2017-05-07,clear_inset_wall_shadow,Wide dark crescent inside the bright rim. The shadow direction is consistent with external ground shadows on adjacent tanks.
+sunoco_little_farm,ortho-little-farm-04,2017-05-07,no_resolved_inset_shadow,Continuous visible top and dark shadow outside the roof outline.
+sunoco_little_farm,ortho-little-farm-05,2017-05-07,no_resolved_inset_shadow,Continuous visible top and dark shadow outside the roof outline.
+ngl_older_parcel,osm-way-460925392,2017-05-07,inset_wall_shadow_visible,Dark crescent enclosed by the bright rim and opposite the external ground shadow.
+ngl_older_parcel,osm-way-460925409,2021-05-06,inset_wall_shadow_visible,Wide right-hand crescent inside the rim.
+ngl_older_parcel,osm-way-460925419,2019-08-12,inset_wall_shadow_visible,Distinct dark crescent enclosed by the rim of the smaller tank.
+ngl_older_parcel,osm-way-460925424,2021-05-06,inset_wall_shadow_visible,Wide right-hand crescent inside the rim.
+ngl_older_parcel,osm-way-460925469,2019-08-12,inset_wall_shadow_visible,Dark interior crescent separated from the ground shadow by the circular rim.
+ngl_older_parcel,osm-way-460925486,2017-05-07,inset_wall_shadow_visible,Dark crescent enclosed by the rim and opposite the external shadow.
+ngl_older_parcel,osm-way-460925494,2017-05-07,inset_wall_shadow_visible,Dark crescent inside the rim visible on the right side of the tank.
+ngl_older_parcel,osm-way-460925514,2017-05-07,inset_wall_shadow_visible,Distinct dark interior crescent on the right side of the circular rim.
+ngl_older_parcel,osm-way-460925533,2021-05-06,inset_wall_shadow_visible,Wide dark crescent within the visible rim.
+ngl_older_parcel,osm-way-460925580,2017-05-07,inset_wall_shadow_visible,Dark crescent within the smaller tank and exterior shadow in the opposite direction.
+ngl_older_parcel,osm-way-460925604,2021-05-06,inset_wall_shadow_visible,Wide dark crescent enclosed by the rim.
+ngl_older_parcel,osm-way-460925612,2017-05-07,inset_wall_shadow_visible,Distinct dark crescent enclosed by the right side of the rim.
+ngl_older_parcel,osm-way-460925628,2021-05-06,inset_wall_shadow_visible,Wide interior shadow and separately visible external ground shadow.
+ngl_older_parcel,osm-way-460925699,2019-08-12,inset_wall_shadow_visible,Dark interior crescent visible within the ring on the right side.
+hcs_ground_lease,osm-way-460925393,2019-08-12,inset_wall_shadow_visible,Wide dark crescent inside the bright rim and a separate exterior ground shadow.
+hcs_ground_lease,osm-way-460925410,2019-08-12,inset_wall_shadow_visible,Dark interior crescent on the right and lower side of the roof inside the bright rim.
+hcs_ground_lease,osm-way-460925579,2019-08-12,inset_wall_shadow_visible,Distinct dark interior crescent on the right inside the outer ring.
+hcs_ground_lease,osm-way-460925706,2019-08-12,inset_wall_shadow_visible,Clear interior crescent on the right and bottom inside the visible rim.
+hcs_ground_lease,osm-way-460925720,2019-08-12,inset_wall_shadow_visible,Dark interior crescent enclosed by the bright rim and distinct from the external ground shadow.

@@ -1,0 +1,9 @@
+terminal_id,as_of_date,observation,capacity_mmbbl,capacity_comparator,capacity_basis,source_url
+plains_cushing,2017-12-31,Terminal in operation with 2017 expansion,25,greater_than,reported terminal capacity,https://www.sec.gov/Archives/edgar/data/1070423/000107042318000006/paa201710-k.htm
+plains_cushing,2025-12-31,Commercial storage at fiscal year end,27,approximately,commercial,https://www.sec.gov/Archives/edgar/data/1070423/000107042326000014/paa-20251231.htm
+enbridge_cushing,2017-12-31,Reported Mid-Continent system Cushing terminal capacity,20,approximately,shell,https://www.sec.gov/Archives/edgar/data/895728/000089572818000008/ei12312017-10kxdocument.htm
+enbridge_cushing,2025-12-31,Annual report Cushing terminal capacity,26,approximately,shell,https://www.sec.gov/Archives/edgar/data/895728/000119312526049810/enb-20251231.htm
+cushing_connect,2019-10-02,Plains and HEP form a terminal and pipeline joint venture,1.5,reported,gross JV storage,https://www.sec.gov/Archives/edgar/data/1283140/000119312519261110/d812515d8k.htm
+phillips66_cushing,2017-12-31,Historical PSXP terminal in PSX filing,0.7,reported,gross,https://www.sec.gov/Archives/edgar/data/1534701/000153470118000065/psx-20171231_10k.htm
+phillips66_cushing,2023-12-31,Cushing crude oil terminal in PSX filing,0.675,reported,gross,https://www.sec.gov/Archives/edgar/data/1534701/000153470124000078/psx-20231231.htm
+enbridge_blueknight,2021-03-01,Enbridge closes purchase of crude terminal business,,,,https://www.sec.gov/Archives/edgar/data/1392091/000143774921004589/bkep20210207_8k.htm

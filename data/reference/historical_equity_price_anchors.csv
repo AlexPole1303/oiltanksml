@@ -1,0 +1,12 @@
+listing_id,symbol,session_date,reported_price_usd,price_basis,source_url
+american_midstream,AMID,2016-10-21,14.95,reported_close,https://www.sec.gov/Archives/edgar/data/1513965/000119312517025961/d289945d424b3.htm
+american_midstream,AMID,2017-01-30,18.10,reported_close,https://www.sec.gov/Archives/edgar/data/1513965/000119312517025961/d289945d424b3.htm
+american_midstream,AMID,2017-03-07,16.45,reported_close,https://www.sec.gov/Archives/edgar/data/1523404/000114036117011267/doc1.xml
+jp_energy,JPEP,2016-10-21,7.54,reported_close,https://www.sec.gov/Archives/edgar/data/1513965/000119312517025961/d289945d424b3.htm
+jp_energy,JPEP,2017-01-30,10.35,reported_close,https://www.sec.gov/Archives/edgar/data/1513965/000119312517025961/d289945d424b3.htm
+jp_energy,JPEP,2017-02-27,8.93,reported_market_price,https://www.sec.gov/Archives/edgar/data/1523404/000155837017001695/jpep-20161231x10k.htm
+jp_energy,JPEP,2017-03-07,9.44,reported_close,https://www.sec.gov/Archives/edgar/data/1523404/000114036117011267/doc1.xml
+sunoco_logistics,SXL,2016-09-23,29.27,reported_close,https://www.sec.gov/Archives/edgar/data/1161154/000119312516719880/d446838d424b5.htm
+sunoco_logistics,SXL,2016-09-26,29.16,reported_close,https://www.sec.gov/Archives/edgar/data/1161154/000119312516723556/d446838d424b5.htm
+tallgrass_gp,TEGP,2018-03-23,17.63,reported_close,https://www.sec.gov/Archives/edgar/data/1633651/000119312518168172/d331945d424b3.htm
+tallgrass_gp,TEGP,2018-06-29,22.16,reported_close,https://www.sec.gov/Archives/edgar/data/1633651/000163365119000009/tge2018123110k.htm

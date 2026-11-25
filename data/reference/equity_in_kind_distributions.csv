@@ -1,0 +1,2 @@
+issuer_symbol,distributed_symbol,ex_date,record_date,payable_date,due_bill_from,due_bill_through,cash_usd_per_issuer_share,distributed_shares_total,issuer_shares_on_record_date,fractional_share_policy,entitlement_source_url,final_amount_source_url
+CVI,DK,2021-06-11,2021-05-26,2021-06-10,2021-05-25,2021-06-10,2.40,10539880,100530599,cash_in_lieu_of_fractional_share,https://www.sec.gov/Archives/edgar/data/1376139/000137613921000063/exhibit992-cvrinformations.htm,https://www.sec.gov/Archives/edgar/data/1376139/000137613921000068/exhibit991-dividenddistrib.htm

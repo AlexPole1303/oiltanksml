@@ -1,0 +1,40 @@
+candidate_id,source_kind,source_id,pixel_x,pixel_y,radius_px,appearance,source_site,notes
+ortho-cushing-01,state_atlas,14S_QE_0181,815,561,7,tank_like,core,Small round structure in industrial compound. Product unknown.
+ortho-cushing-02,state_atlas,14S_QE_0280,896,392,8,tank_like,core,Upper round structure beside process area. Product unknown.
+ortho-cushing-03,state_atlas,14S_QE_0280,899,423,8,tank_like,core,Lower round structure beside process area. Product unknown.
+ortho-cushing-04,state_atlas,14S_QE_0378,1143,690,14,tank_like,core,Round structure in the eastern group. Product and roof type unresolved.
+ortho-cushing-05,state_atlas,14S_QE_0479,199,811,12,tank_like,core,Western round structure in the northern diagonal row.
+ortho-cushing-06,state_atlas,14S_QE_0479,237,783,13,tank_like,core,Second western round structure in the northern diagonal row.
+ortho-cushing-07,state_atlas,14S_QE_0479,457,798,15,tank_like,core,Eastern round structure in the northern diagonal row.
+ortho-cushing-08,state_atlas,14S_QE_0479,392,1025,15,tank_like,core,Eastern round structure in the large southern group.
+ortho-cushing-09,state_atlas,14S_QE_0480,1138,1147,14,tank_like,core,Round structure in the eastern group.
+ortho-cushing-10,state_atlas,14S_QE_0579,634,650,15,tank_like,core,Round structure at the northwestern edge of the tile.
+ortho-cushing-11,state_atlas,14S_QE_0582,992,407,14,covered_looking,core,Roof surface with radial features. Product and roof type unresolved.
+ortho-cushing-12,state_atlas,14S_QE_0582,1031,439,14,covered_looking,core,Roof surface with radial features. Product and roof type unresolved.
+ortho-cushing-13,state_atlas,14S_QE_0582,972,477,14,covered_looking,core,Roof surface with radial features. Product and roof type unresolved.
+ortho-cushing-14,state_atlas,14S_QE_0582,1016,478,14,covered_looking,core,Roof surface with radial features. Product and roof type unresolved.
+ortho-west-01,state_atlas,14S_PE_9984,1031,545,7,tank_like,unresolved,Isolated round structure. Use and product unknown.
+ortho-stroud-01,epa_window,110070122509,305,230,15,covered_looking,Plains Cushing South,One of TANK1 or TANK2 in memorandum 9030. Both IFR and 70000 bbl each.
+ortho-stroud-02,epa_window,110070122509,307,270,16,covered_looking,Plains Cushing South,One of TANK1 or TANK2 in memorandum 9030. Both IFR and 70000 bbl each.
+ortho-drumright-farm-01,epa_window,110007032905,387,82,16,tank_like,Magellan Drumright Tank Farm,Equipment identity and individual product unresolved.
+ortho-drumright-farm-02,epa_window,110007032905,522,223,17,tank_like,Magellan Drumright Tank Farm,Equipment identity and individual product unresolved.
+ortho-drumright-farm-03,epa_window,110007032905,633,194,18,tank_like,Magellan Drumright Tank Farm,Equipment identity and individual product unresolved.
+ortho-drumright-etp-01,epa_window,110007164629,261,51,12,tank_like,ETP Drumright Crude Oil Pipeline Station,Equipment identity and individual product unresolved.
+ortho-drumright-station-01,epa_window,110007387050,378,401,10,tank_like,Magellan Drumright Station,In the northern enclosure. Product unresolved.
+ortho-drumright-station-02,epa_window,110007387050,405,446,11,tank_like,Magellan Drumright Station,In the northern enclosure. Product unresolved.
+ortho-drumright-station-03,epa_window,110007387050,436,492,10,tank_like,Magellan Drumright Station,In the northern enclosure. Product unresolved.
+ortho-drumright-station-04,epa_window,110007387050,485,490,10,tank_like,Magellan Drumright Station,In the northern enclosure. Product unresolved.
+ortho-drumright-station-05,epa_window,110007387050,543,493,12,tank_like,Magellan Drumright Station,In the northern enclosure. Product unresolved.
+ortho-drumright-station-06,epa_window,110007387050,598,494,12,tank_like,Magellan Drumright Station,In the northern enclosure. Product unresolved.
+ortho-drumright-station-07,epa_window,110007387050,561,685,18,partially_clipped,Magellan Drumright Station,South of the main enclosure. Facility attribution unresolved.
+ortho-drumright-station-08,epa_window,110007387050,628,686,15,partially_clipped,Magellan Drumright Station,South of the main enclosure. Facility attribution unresolved.
+ortho-cimarron-01,epa_window,110007388629,165,183,17,open_surface_or_shell,Plains Cimarron Station,Northwestern round wall. Roof and operational status unresolved.
+ortho-cimarron-02,epa_window,110007388629,207,183,17,open_surface_or_shell,Plains Cimarron Station,Northern middle round wall. Roof and operational status unresolved.
+ortho-cimarron-03,epa_window,110007388629,273,183,17,open_surface_or_shell,Plains Cimarron Station,Northeastern round wall. Roof and operational status unresolved.
+ortho-cimarron-04,epa_window,110007388629,90,314,16,tank_like,Plains Cimarron Station,Southwestern round structure. Product and operational status unresolved.
+ortho-cimarron-05,epa_window,110007388629,390,314,16,tank_like,Plains Cimarron Station,Southeastern round structure. Product and operational status unresolved.
+ortho-little-farm-01,epa_window,110022404423,202,448,16,tank_like,Sunoco Little Farm,Crude service documented for the facility. Equipment ID unresolved.
+ortho-little-farm-02,epa_window,110022404423,350,367,21,tank_like,Sunoco Little Farm,Crude service documented for the facility. Equipment ID unresolved.
+ortho-little-farm-03,epa_window,110022404423,392,384,14,tank_like,Sunoco Little Farm,Crude service documented for the facility. Equipment ID unresolved.
+ortho-little-farm-04,epa_window,110022404423,448,320,17,tank_like,Sunoco Little Farm,Crude service documented for the facility. Equipment ID unresolved.
+ortho-little-farm-05,epa_window,110022404423,445,447,16,tank_like,Sunoco Little Farm,Crude service documented for the facility. Equipment ID unresolved.

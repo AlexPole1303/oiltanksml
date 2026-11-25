@@ -1,0 +1,12 @@
+instrument,exchange_symbol,issuer_cik,valid_from,valid_to_exclusive,listing_venue,source_url
+DINO,HFC,0000048039,2016-01-04,2022-03-15,XNYS,https://www.sec.gov/Archives/edgar/data/48039/000119312522077293/d260898d8k.htm
+DINO,DINO,0001915657,2022-03-15,,XNYS,https://investor.hfsinclair.com/investor-relations/press-releases/press-releases-details/2022/HollyFrontier-and-Holly-Energy-Partners-Announce-Completion-of-Transactions-with-The-Sinclair-Companies-and-Establishment-of-New-Parent-Company-HF-Sinclair-Corporation/default.aspx
+ET,ETE,0001276187,2016-01-04,2018-10-19,XNYS,https://www.sec.gov/Archives/edgar/data/1276187/000119312518303169/d639079dex993.htm
+ET,ET,0001276187,2018-10-19,,XNYS,https://www.sec.gov/Archives/edgar/data/1276187/000119312518303169/d639079dex993.htm
+ETE,ETE,0001276187,2016-01-04,2018-10-19,XNYS,https://www.sec.gov/Archives/edgar/data/1276187/000127618717000023/ete12-31x201610k.htm
+ETP,ETP,0001012569,2016-01-04,2017-04-28,XNYS,https://www.sec.gov/Archives/edgar/data/1012569/000089924317011467/doc4.xml
+ETP,ETP,0001161154,2017-05-01,2018-10-19,XNYS,https://www.sec.gov/Archives/edgar/data/1161154/000119312517148980/d375650dex991.htm
+SXL,SXL,0001161154,2016-01-04,2017-05-01,XNYS,https://www.sec.gov/Archives/edgar/data/1161154/000119312517148980/d375650dex991.htm
+TEP,TEP,0001569134,2016-01-04,2018-07-02,XNYS,https://www.sec.gov/Archives/edgar/data/1569134/000119312518210364/d651822d8k.htm
+TEGP,TEGP,0001633651,2016-01-04,2018-07-02,XNYS,https://www.sec.gov/Archives/edgar/data/1633651/000163365118000071/exhibit992tgeproforma20189.htm
+TGE,TGE,0001633651,2018-07-02,2020-04-17,XNYS,https://www.sec.gov/Archives/edgar/data/1633651/000163365118000071/exhibit992tgeproforma20189.htm

@@ -1,0 +1,28 @@
+{
+  "symbols": ["ENB", "EPD", "ET", "NGL", "OKE", "PAA"],
+  "benchmark": "AMLP",
+  "market": "XNYS",
+  "currency": "USD",
+  "gross_notional_usd": 100000,
+  "missing_full_spread_bps": 25,
+  "missing_annual_borrow_rate": 0.05,
+  "ridge_penalty": 0.5,
+  "gross_return_hurdle": 0.0025,
+  "net_return_hurdle": 0.0015,
+  "primary_candidate": "physical_sign",
+  "primary_control": "eia_sign",
+  "secondary_candidates": ["always_long_spread", "physical_geometry_filter", "ridge_eia", "ridge_eia_optical", "ridge_directional_net"],
+  "timing": "Use the documented decision timestamp after the first EIA release. Enter at the first eligible NYSE open strictly after the decision and exit at the close of the fifth session.",
+  "eligible_sample": "Require the existing core asset-linked optical window, dated ownership, complete split-adjusted US quotes and resolvable cash actions. Build a shared nonoverlapping calendar from these windows before using any held-out target or price values.",
+  "fixed_rule_symbol_selection": "Largest absolute physical height change on measured area, with alphabetical ticker as tie-break. The geometry-filtered variant applies the existing nonzero loss-envelope gate.",
+  "learning": "Replay open history first. Fit ridge only to windows whose fifth close is strictly before the current decision. Apply the original model settings and record abstentions as cash for the paired calendar.",
+  "wti_context": "Use the pre-release first-to-second contract spread from the single predictor source already registered for that release.",
+  "execution_costs": "Use observed edge spreads and short-leg borrow rates where available. Use the registered fallback values for missing observations. Stress by doubling variable spread and borrow costs. Apply IBKR Pro Fixed and dated FINRA/SEC rates.",
+  "sec_charge_date": "Model NSCC-cleared exchange sales using the scheduled regular-way settlement date. Apply the US transition to T+1 from 2024-05-28 and the documented holdout clearing-calendar exceptions.",
+  "primary_metric": "Paired mean difference in net USD per common eligible window. Cash is zero on abstentions.",
+  "residual_model": {
+    "training": "Use all asset-linked windows with complete accounting and no terminal relationship change. Apply the optical residual only when the fixed physical rule's dated input checks pass. Use paired 60-session beta available strictly before the decision, with the original missing-data policy. Train on the two directions and on previously closed windows only.",
+    "comparison": "Compare the public and optical-augmented models on the same measured rows. Compare trading on the fixed nonoverlapping measured calendar. Retain consensus as a secondary model.",
+    "penalties": [0.1, 0.5, 2.0]
+  }
+}

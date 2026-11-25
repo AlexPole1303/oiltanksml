@@ -1,0 +1,5 @@
+agreement_version,agreement_effective_date,filing_date,sec_accepted_at_utc,service_provider,shipper,minimum_reserved_capacity_bpd,minimum_throughput_bpd,base_usd_per_bbl,above_minimum_usd_per_bbl,ppi_adjustment_floor_pct,ppi_adjustment_cap_pct,ppi_adjustment_start_date,initial_term_end_date,automatic_renewal_years,source_url
+6,2019-10-02,2019-10-03,2019-10-03T10:44:45.000Z,HEP Operating,HFRM,100000,100000,0.36,0.08,0,2,2021-07-01,2036-03-31,2,https://www.sec.gov/Archives/edgar/data/1283140/000119312519261110/d812515dex101.htm
+7,2021-01-01,2021-02-11,2021-02-11T22:12:06.000Z,HEP Operating,HFRM,100000,100000,0.36,0.08,0,2,2021-07-01,2036-03-31,2,https://www.sec.gov/Archives/edgar/data/1283140/000119312521038733/d100523dex101.htm
+8,2022-03-14,2022-03-14,2022-03-14T16:57:06.000Z,HEP Operating,HFRM,100000,100000,0.36,0.08,0,2,2021-07-01,2036-03-31,2,https://www.sec.gov/Archives/edgar/data/1283140/000119312522074385/d327150dex101.htm
+9,2023-02-01,2023-03-01,2023-03-01T11:35:38.000Z,HEP Operating,HFRM,100000,100000,0.3672,0.0816,0,2,2021-07-01,2036-03-31,2,https://www.sec.gov/Archives/edgar/data/1283140/000119312523055076/d475266dex101.htm

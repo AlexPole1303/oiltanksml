@@ -1,0 +1,3 @@
+facility_key,document_id,unit_group,proposed_tanks,stored_product,roof_type,capacity_bbl_each,diameter_ft_in_emissions_calculation,roster_pdf_page,dimension_pdf_page,source_url
+plains_cushing,5618,10a,30,Crude Oil,EFR,270000,200,8,24,https://applications.deq.ok.gov/permitspublic/storedpermits/5618.pdf
+plains_cushing,5618,10b,17,Crude Oil,EFR,270000,200,9,24,https://applications.deq.ok.gov/permitspublic/storedpermits/5618.pdf

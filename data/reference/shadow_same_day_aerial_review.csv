@@ -1,0 +1,13 @@
+candidate_id,aerial_date,top_observation,detail
+ortho-drumright-farm-01,2021-04-19,top_without_distinct_inset_shadow,Exterior shadow is visible. No distinct inner shadow arc separates from the top perimeter.
+ortho-drumright-farm-02,2021-04-19,thin_or_uncertain_inset_shadow,A dark arc runs along the apparent inside rim. Its separation from the rim is uncertain.
+ortho-drumright-farm-03,2021-04-19,thin_or_uncertain_inset_shadow,A thin dark arc borders the illuminated top in the apparent shadow direction.
+ortho-drumright-station-01,2021-04-19,thin_or_uncertain_inset_shadow,The dark inner edge is thin and difficult to separate from the perimeter.
+ortho-drumright-station-02,2021-04-19,thin_or_uncertain_inset_shadow,A narrow dark arc appears opposite the exterior shadow.
+ortho-drumright-station-03,2021-04-19,inset_wall_shadow_visible,A wide curved dark region separates the illuminated surface from the apparent rim.
+ortho-drumright-station-04,2021-04-19,inset_wall_shadow_visible,A distinct curved interior dark region is visible opposite the exterior shadow.
+ortho-drumright-station-05,2021-04-19,inset_wall_shadow_visible,A distinct curved interior dark region is visible opposite the exterior shadow.
+ortho-drumright-station-06,2021-04-19,inset_wall_shadow_visible,A wide interior shadow arc is visible next to the marked roof surface.
+ortho-drumright-station-07,2021-04-19,top_without_distinct_inset_shadow,An exterior shadow is visible and the top has no clearly separate interior shadow arc.
+ortho-drumright-station-08,2021-04-19,top_without_distinct_inset_shadow,An exterior shadow is visible and the top has no clearly separate interior shadow arc.
+ortho-drumright-etp-01,2023-10-16,inset_wall_shadow_visible,A broad dark region falls inside the rim opposite the exterior shadow.

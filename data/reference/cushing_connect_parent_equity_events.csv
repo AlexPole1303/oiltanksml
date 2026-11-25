@@ -1,0 +1,4 @@
+event_id,legal_effective_date,parent_exchange_symbol,additional_hep_common_units,reported_parent_pct_override,hep_terminal_pct,filing_date,sec_accepted_at_utc,source_url
+formation,2019-10-02,HFC,0,,50,2019-10-03,2019-10-03T10:44:45.000Z,https://www.sec.gov/Archives/edgar/data/1283140/000119312519261110/d812515d8k.htm
+sinclair_unit_issuance,2022-03-14,DINO,21000000,,50,2022-03-14,2022-03-14T16:57:06.000Z,https://www.sec.gov/Archives/edgar/data/1283140/000119312522074385/d327150d8k.htm
+hep_wholly_owned,2023-12-01,DINO,,100,50,2023-12-01,2023-12-01T21:12:02.000Z,https://www.sec.gov/Archives/edgar/data/1283140/000119312523287465/d275726d8k.htm

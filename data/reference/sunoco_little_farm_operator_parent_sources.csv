@@ -1,0 +1,4 @@
+scope_id,evidence_role,subject,related_entity,reference_date,source_date,source_date_basis,source_url,source_file
+sunoco_little_farm,site_operator,Little Farm Crude Oil Pipeline Station,Sunoco Pipeline L.P.,2017,2021-02-08,epa_nei_2017_archive_version,https://gaftp.epa.gov/air/nei/2017/data_summaries/2017v1/2017neiJan_facility_process_byregions.zip,data/raw/documents/epa_nei/nei_2017_cushing_county_processes.csv.gz
+sunoco_little_farm,listed_operator_parent,Sunoco Pipeline L.P.,Energy Transfer LP,2019-12-31,2020-02-21,sec_filing_date,https://www.sec.gov/Archives/edgar/data/1276187/000127618720000011/et-12312019xex211.htm,
+sunoco_little_farm,listed_operator_parent_crosscheck,Sunoco Pipeline L.P.,Energy Transfer LP,2021-12-31,2022-02-18,sec_filing_date,https://www.sec.gov/Archives/edgar/data/1276187/000127618722000020/et-20211231.htm,
