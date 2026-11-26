@@ -1,0 +1,97 @@
+{
+  "all": {
+    "n": 148,
+    "mae_kbbl": {
+      "estimate": 247.10310658335845,
+      "no_images": 250.2259400233659,
+      "matched_fallback": 247.7616705984053
+    },
+    "api_mae_kbbl": null,
+    "image_gain_kbbl": 3.122833440007412,
+    "paired_95": [
+      -3.813798645239096,
+      11.552493612483998
+    ]
+  },
+  "survey": {
+    "n": 145,
+    "mae_kbbl": {
+      "estimate": 233.82900267080564,
+      "no_images": 234.5011921482327,
+      "matched_fallback": 234.5011921482327
+    },
+    "api_mae_kbbl": 279.6758620689655,
+    "image_gain_kbbl": 0.6721894774270654,
+    "paired_95": [
+      -4.424867593144891,
+      5.634137410956911
+    ]
+  },
+  "original_survey": {
+    "n": 139,
+    "mae_kbbl": {
+      "estimate": 233.6685348573807,
+      "no_images": 235.12886780783285,
+      "matched_fallback": 235.12886780783285
+    },
+    "api_mae_kbbl": 280.15827338129503,
+    "image_gain_kbbl": 1.4603329504520988,
+    "paired_95": [
+      -3.448240695792542,
+      6.281556910527525
+    ]
+  },
+  "missing": {
+    "n": 3,
+    "mae_kbbl": {
+      "estimate": 888.6847956900799,
+      "no_images": 1010.2554206548042,
+      "matched_fallback": 888.6847956900799
+    },
+    "api_mae_kbbl": null,
+    "image_gain_kbbl": 121.57062496472422,
+    "paired_95": null
+  },
+  "primary_image": {
+    "n": 70,
+    "mae_kbbl": {
+      "estimate": 289.7984903383481,
+      "no_images": 300.9807745551589,
+      "matched_fallback": 295.77060491381354
+    },
+    "api_mae_kbbl": null,
+    "image_gain_kbbl": 11.182284216810757,
+    "paired_95": [
+      -0.604345287070682,
+      25.779449099053345
+    ]
+  },
+  "no_primary_image": {
+    "n": 78,
+    "mae_kbbl": {
+      "estimate": 208.78673654682933,
+      "no_images": 204.67672954611578,
+      "matched_fallback": 204.67672954611578
+    },
+    "api_mae_kbbl": 270.33333333333337,
+    "image_gain_kbbl": -4.110007000713536,
+    "paired_95": [
+      -10.436151036720434,
+      1.522370927302337
+    ]
+  },
+  "survey_and_image": {
+    "n": 67,
+    "mae_kbbl": {
+      "estimate": 262.9826856211064,
+      "no_images": 269.2222083118912,
+      "matched_fallback": 269.2222083118912
+    },
+    "api_mae_kbbl": 290.5522388059701,
+    "image_gain_kbbl": 6.2395226907847805,
+    "paired_95": [
+      -1.4796485082181956,
+      14.212116188725382
+    ]
+  }
+}

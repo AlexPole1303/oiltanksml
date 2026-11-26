@@ -1,0 +1,162 @@
+{
+  "fixed": {
+    "windows": 144,
+    "inventory_trades": 38,
+    "curve_trades": 41,
+    "inventory_net": 50070,
+    "curve_net": 47060,
+    "net_difference": 3010,
+    "changed_sides": 13,
+    "opposite": 4,
+    "inventory_only": 3,
+    "curve_only": 6,
+    "difference_on_changed_sides": 3010,
+    "difference_on_same_sides": 0,
+    "mean_difference_per_window_95": [
+      -203.62326388888889,
+      278.70138888888897
+    ],
+    "by_year": {
+      "2024": [
+        0,
+        -330
+      ],
+      "2025": [
+        1050,
+        830
+      ],
+      "2026": [
+        49020,
+        46560
+      ]
+    }
+  },
+  "fixed_forecast_only": {
+    "windows": 144,
+    "inventory_trades": 38,
+    "curve_trades": 40,
+    "inventory_net": 50070,
+    "curve_net": 49330,
+    "net_difference": 740,
+    "changed_sides": 4,
+    "opposite": 0,
+    "inventory_only": 1,
+    "curve_only": 3,
+    "difference_on_changed_sides": 740,
+    "difference_on_same_sides": 0,
+    "mean_difference_per_window_95": [
+      -60.90277777777778,
+      74.62673611111127
+    ],
+    "by_year": {
+      "2024": [
+        0,
+        -330
+      ],
+      "2025": [
+        1050,
+        1050
+      ],
+      "2026": [
+        49020,
+        48610
+      ]
+    }
+  },
+  "same_clocks_forecast_only": {
+    "windows": 144,
+    "inventory_trades": 39,
+    "curve_trades": 40,
+    "inventory_net": 54430,
+    "curve_net": 50030,
+    "net_difference": 4400,
+    "changed_sides": 3,
+    "opposite": 0,
+    "inventory_only": 1,
+    "curve_only": 2,
+    "difference_on_changed_sides": 4400,
+    "difference_on_same_sides": 0,
+    "mean_difference_per_window_95": [
+      0.0,
+      83.61111111111111
+    ],
+    "by_year": {
+      "2024": [
+        0,
+        -330
+      ],
+      "2025": [
+        1070,
+        1070
+      ],
+      "2026": [
+        53360,
+        49290
+      ]
+    }
+  },
+  "same_adaptive_clocks": {
+    "windows": 144,
+    "inventory_trades": 39,
+    "curve_trades": 41,
+    "inventory_net": 54430,
+    "curve_net": 45110,
+    "net_difference": 9320,
+    "changed_sides": 13,
+    "opposite": 5,
+    "inventory_only": 3,
+    "curve_only": 5,
+    "difference_on_changed_sides": 9320,
+    "difference_on_same_sides": 0,
+    "mean_difference_per_window_95": [
+      -141.39409722222223,
+      310.0225694444445
+    ],
+    "by_year": {
+      "2024": [
+        0,
+        -330
+      ],
+      "2025": [
+        1070,
+        850
+      ],
+      "2026": [
+        53360,
+        44590
+      ]
+    }
+  },
+  "independent_adaptive": {
+    "windows": 144,
+    "inventory_trades": 39,
+    "curve_trades": 41,
+    "inventory_net": 54430,
+    "curve_net": 46910,
+    "net_difference": 7520,
+    "changed_sides": 13,
+    "opposite": 5,
+    "inventory_only": 3,
+    "curve_only": 5,
+    "difference_on_changed_sides": 7380,
+    "difference_on_same_sides": 140,
+    "mean_difference_per_window_95": [
+      -156.61111111111111,
+      297.1545138888889
+    ],
+    "by_year": {
+      "2024": [
+        0,
+        -330
+      ],
+      "2025": [
+        1070,
+        710
+      ],
+      "2026": [
+        53360,
+        46530
+      ]
+    }
+  }
+}

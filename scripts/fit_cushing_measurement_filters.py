@@ -74,8 +74,8 @@ def measurement_at(row, cutoff):
     return values
 
 
-def setup(wire_path=WIRE):
-    original = v4.prepared()
+def setup(wire_path=WIRE, *, panel=None, imagery=True):
+    original = v4.prepared(panel)
     data = v3.add_survey(original, wire_records(v4.sources(), wire_path))
     measurements = pd.read_csv(MEASUREMENTS).set_index("release_date")
     if not measurements.index.is_unique:
@@ -85,7 +85,10 @@ def setup(wire_path=WIRE):
         measure = measurements.loc[r.release_date]
         if measure.week_ending != r.week_ending:
             raise ValueError("Mismatched measurement week")
-        extra.append(measurement_at(measure, r.cutoff) | filters.state(data, r.week_ending, r.cutoff))
+        values = measurement_at(measure, r.cutoff)
+        if not imagery:
+            values.update(radar_weekly_million=np.nan, radar_age_days=np.nan)
+        extra.append(values | filters.state(data, r.week_ending, r.cutoff))
     updated_feedback = [feedback(data, r.week_ending, r.cutoff) for r in data.itertuples()]
     data = data.assign(**pd.DataFrame(updated_feedback, index=data.index).to_dict("series"))
     return original, filters.covariates(pd.concat([data, pd.DataFrame(extra, index=data.index)], axis=1))

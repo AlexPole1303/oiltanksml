@@ -38,8 +38,8 @@ def sources(extra=EXTRA, original=previous.SURVEY, cutoff=None):
     return pd.concat([old.loc[~old.index.isin(updates.index)], updates]).sort_index()
 
 
-def prepared():
-    data = previous.add_survey(enrich(load_panel()), sources())
+def prepared(panel=None):
+    data = previous.add_survey(enrich(load_panel() if panel is None else panel), sources())
     updates = [feedback(data, r.week_ending, r.cutoff) for r in data.itertuples()]
     return pd.concat([data, pd.DataFrame(updates, index=data.index)], axis=1)
 

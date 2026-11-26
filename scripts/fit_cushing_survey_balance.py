@@ -51,8 +51,8 @@ def product_features(rows, week, when):
     return values | {"product_balance": values["gasoline"] + values["distillate"]}
 
 
-def setup():
-    _, previous = v5.setup()
+def setup(*, panel=None, imagery=True):
+    _, previous = v5.setup(panel=panel, imagery=imagery)
     sources = v5.wire_records(v4.sources())
     full = v3.add_survey(previous, v5.wire_records(sources, PRECISION))
     extra = pd.read_csv(EXTERNAL).set_index("release_date")
@@ -64,6 +64,8 @@ def setup():
     new = []
     for _, r in full.iterrows():
         d = stamped_values(extra.loc[r.release_date], r.cutoff, r.week_ending)
+        if not imagery:
+            d.update(optical_measured=np.nan, optical_move=np.nan, optical_coverage=np.nan)
         fuel = product_features(groups.get(r.release_date), r.week_ending, r.cutoff)
         new.append(
             feedback(full, r.week_ending, r.cutoff)
@@ -345,12 +347,17 @@ def forecast(record, when, package, quote, external, products, settled=None):
         or hashlib.sha256(v5.PACKAGE.read_bytes()).hexdigest() != v3weights["network_sha256"]
     ):
         raise ValueError("Mismatched network dependencies")
+    return forecast_with_models(record, when, package, quote, external, products, settled,
+                                json.loads(v5.PACKAGE.read_bytes()), v3weights, v4weights)
+
+
+def forecast_with_models(record, when, package, quote, external, products, settled, network, survey_model, residual_model):
     have = quote is not None and quote.available_utc < when
     if have and (quote.name != record["release_date"] or quote.week_ending != record["week_ending"]):
         raise ValueError("Quote refers to a different reporting week")
-    updated = {"heads": package["updated"], "feedback": package["settled"], "mix": v4weights["mix"]}
+    updated = {"heads": package["updated"], "feedback": package["settled"], "mix": residual_model["mix"]}
     reference = v4.predict(
-        record, quote if have else None, when, json.loads(v5.PACKAGE.read_bytes()), v3weights, updated, settled
+        record, quote if have else None, when, network, survey_model, updated, settled
     )
     values = dict(
         record,
@@ -380,7 +387,7 @@ def forecast(record, when, package, quote, external, products, settled=None):
     }
 
 
-def predict_from_files(args):
+def prediction_inputs(args):
     if not args.as_of:
         raise ValueError("Prediction requires --as-of")
     when = pd.Timestamp(args.as_of)
@@ -406,15 +413,12 @@ def predict_from_files(args):
     national = v5.measurement_at(ms.loc[day] if day in ms.index else None, when)
     prod = pd.read_csv(args.products)
     settled = pd.read_csv(args.settled_feedback) if args.settled_feedback else None
-    return forecast(
-        record | national,
-        when,
-        json.loads(WEIGHTS.read_bytes()),
-        quote,
-        ext.loc[day] if day in ext.index else None,
-        prod[prod.release_date == day],
-        settled,
-    )
+    return record | national, when, quote, ext.loc[day] if day in ext.index else None, prod[prod.release_date == day], settled
+
+
+def predict_from_files(args):
+    record, when, quote, external, products, settled = prediction_inputs(args)
+    return forecast(record, when, json.loads(WEIGHTS.read_bytes()), quote, external, products, settled)
 
 
 if __name__ == "__main__":

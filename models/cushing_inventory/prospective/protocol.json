@@ -1,0 +1,99 @@
+{
+  "protocol_date": "2026-11-26",
+  "cohort": "First 13 consecutive EIA releases after protocol registration. Publish missed cutoffs in the denominator.",
+  "schedule_source": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+  "units": "thousand barrels",
+  "metric": "Mean absolute error against the first EIA Table 4 weekly Cushing change, paired full versus no images. Separately report original API on available weeks.",
+  "selection": "Frozen network weights, mixing coefficients and public calibration panel. External as-of fields and already released survey feedback may update. No architecture tuning on this cohort.",
+  "release_window": "22:00 to midnight US Eastern on the evening before the scheduled release. Use actual UTC registration time and commit the receipt before publication.",
+  "frozen_artifacts": {
+    "balance_weights.json": "1468d51f43d0d52af21d5a3d615285ff12efbabed0b612d397ef136f4cb26dcc",
+    "measurement_weights.json": "a7756cb0d8f929a0b982a534e0d969b4c9f0461f8cf1658ab114813349f52cf6",
+    "residual_mixture.json": "6d9405e73164b72bb52b5e16bc8d6854c444a6f5b6d2aa021edf6986c8433168",
+    "survey_mixture.json": "9688d954b4fc7f60b8ba8f3c99bc6b224b9d9f67f40475dffc0ac42d4181c712",
+    "calibrated_weights.json": "6b300aebfb356b10cd0394f36ea782835df25d0b59636fbc5862e62f7a20b6a4",
+    "image_control_weights.json": "68edc1f868d62563498a1b3530ff4ae3cd063010e5a47748e3689c797d042aba",
+    "image_control_market.csv": "509844d3b440b91e444c9ac012ea463c8468b25516eb96de088ba271f1f51f24",
+    "weekly_inputs.csv": "ebf609f6c0cead5b424a38233fbe47a200040457fc8d9ec98343db1ca07a2db2"
+  },
+  "releases": [
+    {
+      "week_ending": "2026-11-27",
+      "release_date": "2026-12-02",
+      "deadline_utc": "2026-12-02T05:00:00+00:00",
+      "scheduled_release_utc": "2026-12-02T15:30:00+00:00"
+    },
+    {
+      "week_ending": "2026-12-04",
+      "release_date": "2026-12-09",
+      "deadline_utc": "2026-12-09T05:00:00+00:00",
+      "scheduled_release_utc": "2026-12-09T15:30:00+00:00"
+    },
+    {
+      "week_ending": "2026-12-11",
+      "release_date": "2026-12-16",
+      "deadline_utc": "2026-12-16T05:00:00+00:00",
+      "scheduled_release_utc": "2026-12-16T15:30:00+00:00"
+    },
+    {
+      "week_ending": "2026-12-18",
+      "release_date": "2026-12-23",
+      "deadline_utc": "2026-12-23T05:00:00+00:00",
+      "scheduled_release_utc": "2026-12-23T15:30:00+00:00"
+    },
+    {
+      "week_ending": "2026-12-25",
+      "release_date": "2026-12-30",
+      "deadline_utc": "2026-12-30T05:00:00+00:00",
+      "scheduled_release_utc": "2026-12-30T15:30:00+00:00"
+    },
+    {
+      "week_ending": "2027-01-01",
+      "release_date": "2027-01-06",
+      "deadline_utc": "2027-01-06T05:00:00+00:00",
+      "scheduled_release_utc": "2027-01-06T15:30:00+00:00"
+    },
+    {
+      "week_ending": "2027-01-08",
+      "release_date": "2027-01-13",
+      "deadline_utc": "2027-01-13T05:00:00+00:00",
+      "scheduled_release_utc": "2027-01-13T15:30:00+00:00"
+    },
+    {
+      "week_ending": "2027-01-15",
+      "release_date": "2027-01-21",
+      "deadline_utc": "2027-01-21T05:00:00+00:00",
+      "scheduled_release_utc": "2027-01-21T17:00:00+00:00"
+    },
+    {
+      "week_ending": "2027-01-22",
+      "release_date": "2027-01-27",
+      "deadline_utc": "2027-01-27T05:00:00+00:00",
+      "scheduled_release_utc": "2027-01-27T15:30:00+00:00"
+    },
+    {
+      "week_ending": "2027-01-29",
+      "release_date": "2027-02-03",
+      "deadline_utc": "2027-02-03T05:00:00+00:00",
+      "scheduled_release_utc": "2027-02-03T15:30:00+00:00"
+    },
+    {
+      "week_ending": "2027-02-05",
+      "release_date": "2027-02-10",
+      "deadline_utc": "2027-02-10T05:00:00+00:00",
+      "scheduled_release_utc": "2027-02-10T15:30:00+00:00"
+    },
+    {
+      "week_ending": "2027-02-12",
+      "release_date": "2027-02-18",
+      "deadline_utc": "2027-02-18T05:00:00+00:00",
+      "scheduled_release_utc": "2027-02-18T17:00:00+00:00"
+    },
+    {
+      "week_ending": "2027-02-19",
+      "release_date": "2027-02-24",
+      "deadline_utc": "2027-02-24T05:00:00+00:00",
+      "scheduled_release_utc": "2027-02-24T15:30:00+00:00"
+    }
+  ]
+}

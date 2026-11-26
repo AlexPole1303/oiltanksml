@@ -146,3 +146,36 @@ python -m unittest discover -s tests
 ```
 
 Реконструкция выполнена 25 ноября. Для отсечки 18 ноября в 05:00 UTC она дала −1 306,61 тыс. баррелей. EIA сообщило −1 209 тыс., абсолютная ошибка составила 97,61 тыс. Ранее зарегистрированный гибрид дал −78,83 тыс. баррелей и был рассчитан за несколько дней до публикации API. Для этой реконструкции использованы более свежие входные данные. [Проверка выпуска](nov18_score.json) · [Архивный отчёт EIA, таблица 4](https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_11_18/wpsr_2026_11_18.php).
+
+## Matched image, laser-height and trading controls, 26 November 2026
+
+From the repository root, run the following programs in the project Python environment. The normal replay reads the included input panels. The optional `--export-inputs` path reconstructs them from the local raw research archive.
+
+```sh
+python scripts/cushing_image_control.py
+python scripts/cushing_lidar_control.py
+python scripts/cushing_spread_control.py
+python scripts/register_cushing_paired.py status
+python -m unittest discover -s tests
+```
+
+The estimate, target and API quote in `image_control_forecasts.csv` are in **million barrels**. The score and paired intervals in `image_control_evaluation.json` are in **thousand barrels**. The complete and no-image arms score 247.103 and 250.226 on exactly the same 148 first releases. All image-derived anchors are removed before constructing lagged residuals, and the no-image calibration heads are independently fit. The primary image flag refers to the fresh measurement in the main optical series. The 95% paired intervals sample blocks of four releases across the full calendar, including gaps. Three survey-free dates contribute much of the overall difference.
+
+`lidar_pairs.csv` contains the eligible derived optical/laser observations used by both rankings, including sensor time separation. `lidar_control.csv` compares equal selection sizes within each optical day. The associated optical and laser observations are roughly one or four days apart. Absolute vertical discrepancies combine motion and measurement variation.
+
+`spread_control_market.jsonl` contains the chronological closed training windows and spread paths. Refit each control before the decision from already closed windows. `spread_control_windows.csv` preserves release, contracts, entry, exit, side and after-cost dollar results. `fixed` compares deterministic matched clocks. `same_adaptive_clocks` holds the published adaptive entry and exit fixed for attribution. `independent_adaptive` gives the curve-only control its own clock decisions. The two additional `forecast_only` comparisons retain the first EIA observation in the control to isolate the incremental value of the pre-release expectation. Both arms use $170 per round trip. In 144 fixed-clock windows the incremental expectation contributes $740, while the combined forecast and EIA release contribute $3,010. All results in these files are retrospective.
+
+### Prospective pair journal
+
+The 13 dates, cutoffs, scheduled publications and original model hashes are in [the frozen protocol](prospective/protocol.json). The register uses the actual clock. For each release, prepare the full model's unlabeled feature JSON with `scripts/prepare_cushing_network_panel.py --registration <dated transfer receipt>`. Prepare the public component receipts with `register_cushing_prerelease_forecast.py` and `register_cushing_public_fallback.py`. Use the unchanged public fallback's `balance_and_basis_without_optics` on every week, including weeks with a usable image.
+
+For the public market file, provide a JSON tape with `release_date`, the six latest eligible settlement dates `eligible_sessions`, four dated consecutive `contract_months` in the same maturity window as the historical rule, and ISO timestamp `available_utc`. Point `calendar_source` to a CSV of `session_date,eligible` (1/0) covering the information cutoff date. Point `prices_source` to a CSV of `session_date,delivery_month,usd_per_barrel` with the eight first/last session marks. Include the SHA-256 of each file in `calendar_source_sha256` and `prices_source_sha256`. Use original market/calendar sources, retain their provenance and capture times with the two CSV extracts, and stage the dated source bundle with the forecast. Price changes are calculated from those files. Missing source evidence leaves the release unregistered.
+
+```sh
+python scripts/prepare_cushing_paired_market.py "$issue" --tape "$tape" --output "$market"
+python scripts/register_cushing_paired.py register "$issue" --predict "$full_input" --market "$market"
+python scripts/register_cushing_paired.py score "$issue"
+python scripts/register_cushing_paired.py status
+```
+
+Register between 22:00 and midnight New York time on the evening preceding publication. Use current dated survey archives, national measurements, balance and product observations and settled feedback via the CLI's ledger options. An absent API quote is allowed. Commit and push each pair to the private repository before the release. The historical full-arm and no-image weights and training panels remain frozen. The score command checks the archived Table 4's two report weeks, weekly change and source bytes. Forecast receipts, EIA source files and scores are separate, append-only records. Repeat scoring reuses the saved first archive. The status command includes missed deadlines and reports paired MAE among scored observations. A directory with no scored receipts has no prospective performance estimate.
